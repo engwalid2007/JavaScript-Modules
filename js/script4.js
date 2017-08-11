@@ -1,6 +1,7 @@
-(function () {
-    var myscript3= new Script3();
-    var myscript2= new Script2();
+define([
+    './script3','./script2'
+], function(myscript3, myscript2) {
+   
     function function41() {
         myscript3.function31();
     }
@@ -9,4 +10,4 @@
     }
     function41();
     function42();
-})();
+});

@@ -1,4 +1,5 @@
-var Script2 = function () {
+define([], function() {
+    
     function function21() {
         console.log("script 2 - function1")
     }
@@ -6,7 +7,9 @@ var Script2 = function () {
         console.log("script 2 - function2")
     }
     return{
-       function21:function21,
-        function22:function22
-    };
-};
+        function21:function21,
+        function22:function22,
+    }
+});
+    
+    
