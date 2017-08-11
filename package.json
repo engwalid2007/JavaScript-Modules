@@ -1,0 +1,20 @@
+{
+  "name": "javescript-modules",
+  "version": "1.0.0",
+  "description": "traing on javascript modules",
+  "main": "ee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engwalid2007/javascript-modules.git"
+  },
+  "author": "Waleed Hammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engwalid2007/javascript-modules/issues"
+  },
+  "homepage": "https://github.com/engwalid2007/javascript-modules#readme"
+  
+}
