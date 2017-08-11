@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/engwalid2007/javascript-modules#readme",
   "dependencies": {
-    "requirejs": "^2.3.4"
+    "requirejs": "^2.3.4",
+    "systemjs": "^0.20.17"
   }
 }

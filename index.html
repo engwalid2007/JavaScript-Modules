@@ -1,10 +1,21 @@
 <html>
-    <head>
-        
-    </head>
-    <body>
-            fffffffffffffffff
-            
-            <script src="node_modules/requirejs/require.js" data-main="js/script4"></script>
-    </body>
+
+<head>
+
+</head>
+
+<body>
+    fffffffffffffffff
+    <!-- <script src="node_modules/requirejs/require.js" data-main="js/script4"></script> -->
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script type="text/javascript">
+        System.config({
+            meta: {
+                format: 'cjs'
+            }
+        });
+        System.import('js/script4.js')
+    </script>
+</body>
+
 </html>
