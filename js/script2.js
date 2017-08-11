@@ -1,4 +1,4 @@
-var script2 = function () {
+var Script2 = function () {
     function function21() {
         console.log("script 2 - function1")
     }
@@ -9,4 +9,4 @@ var script2 = function () {
        function21:function21,
         function22:function22
     };
-}();
+};

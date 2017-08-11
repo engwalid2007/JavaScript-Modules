@@ -1,12 +1,14 @@
-var script3 = function () {
+var Script3 = function () {
+    var myscript1= new Script1();
+    var myscript2= new Script2();
     function function31() {
-        script1.function11();
+        myscript1.function11();
     }
     function function32() {
-        script2.function22();
+        myscript2.function22();
     }
     return {
         function31:function31,
         function32:function32
-    }
-}();
+    };
+};
